@@ -132,7 +132,17 @@ source env/bin/activate
 
 ```
 
-### 4. Install Python Dependencies
+### 4. Start Redis Server
+To start the Redis server on your machine:
+
+```
+# On Ubuntu/Debian
+sudo service redis-server start
+# On macOS (using Homebrew)
+brew services start redis
+```
+
+### 5. Install Python Dependencies
 With the virtual environment activated, install the necessary Python packages:
 
 ```
@@ -140,20 +150,18 @@ pip install -r requirements.txt
 
 ```
 
-
-### 5. Run the Flask Application
+### 6. Run the Flask Application
 To run the application, use the following command:
 ```
 python app.py
 
 ```
 
-
-### 6. Access the Application
+### 7. Access the Application
 Go to the following url: :`http://localhost:5000/`, to acces the application.
 
 
-### 7. Initialize the SQLite Database
+### 8. Initialize the SQLite Database
 The app will automatically create the `instance/url_shortener.db` file when you run the app for the first time:
 
 ```
