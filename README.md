@@ -140,7 +140,20 @@ pip install -r requirements.txt
 
 ```
 
-### 5. Initialize the SQLite Database
+
+### 5. Run the Flask Application
+To run the application, use the following command:
+```
+python app.py
+
+```
+
+
+### 6. Access the Application
+Go to the following url: :`http://localhost:5000/`, to acces the application.
+
+
+### 7. Initialize the SQLite Database
 The app will automatically create the `instance/url_shortener.db` file when you run the app for the first time:
 
 ```
@@ -154,28 +167,5 @@ python show_db.py
 ```
 
 
-### 6. Start Redis Server
-To start the Redis server on your machine:
 
-```
-# On Ubuntu/Debian
-sudo service redis-server start
-
-# On macOS (using Homebrew)
-brew services start redis
-
-# On Windows (using Chocolatey)
-redis-server
-
-```
-
-### 7. Run the Flask Application
-
-```
-python app.py
-
-```
-
-### 8. Access the Application
-Go to the following url: :`http://localhost:5000/`, to acces the application.
 
