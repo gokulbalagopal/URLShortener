@@ -100,7 +100,8 @@ brew install redis
 ```
 
 ##### 1.2.3 For Windows: 
-You can download Redis from the official website or use a package like Chocolatey:
+You can download Redis using this link: `https://github.com/microsoftarchive/redis/releases`
+ or use a package like Chocolatey:
 
 ```
 choco install redis-64
