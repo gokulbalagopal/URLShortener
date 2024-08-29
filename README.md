@@ -145,6 +145,12 @@ The app will automatically create the `instance/url_shortener.db` file when you 
 ```
 python app.py
 ```
+Once you start adding the url to the app , you can view the data by stopping the remote server . For that quit the app.py file 
+and run the following command to see the contents of the data base.
+
+```
+python show_db.py
+```
 
 
 ### 6. Start Redis Server
