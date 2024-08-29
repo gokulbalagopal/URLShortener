@@ -73,7 +73,7 @@ Failed Response:
 ```
 ## Prerequisites
 Please ensure that you have met the following requirements:
-- Python 3.x
+- Python 3.8.8 and above
 - Redis server
 The installation instructions for Python and Redis server are given below
 
