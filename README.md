@@ -111,7 +111,7 @@ choco install redis-64
 
 ```
 git clone https://github.com/gokulbalagopal/URLShortener.git
-cd URLShortner
+cd URLShortener
 ```
 You can also transfer the files manually if you have the zip file
 
