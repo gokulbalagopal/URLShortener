@@ -138,8 +138,12 @@ To start the Redis server on your machine:
 ```
 # On Ubuntu/Debian
 sudo service redis-server start
+
 # On macOS (using Homebrew)
 brew services start redis
+
+# On Windows (using Chocolatey)
+redis-server
 ```
 
 ### 5. Install Python Dependencies
